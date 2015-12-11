@@ -1,0 +1,42 @@
+*{
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: #404040;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 600px;
+	height: 608px;
+	margin: 5px auto;
+	background-color: #00ff00;
+	outline: 1px solid #000;
+}
+
+#buttonwrapper {
+	text-align: center;
+}
+
+#reset {
+	margin: 10px auto;
+	width: 70px;
+	height: 30px;
+	position: relative;
+}
+
+.block {
+	width: 37.5px;
+	height: 37.5px;
+	background-color: #ff0000;
+	display: inline-block;
+	border: 0px solid #000;
+	outline: 1px solid #000;
+	margin-bottom: -2px;
+}
+
+
+
+.drawn {
+	background-color: #0000ff;
+}
