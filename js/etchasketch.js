@@ -10,7 +10,11 @@ function draw(){
 	});
 }
 
-
+function checkNumber(){
+	while (Math.sqrt(blockcount) > 45){
+			blockcount = Math.pow(prompt("Please select a number between 1 and 45."), 2);
+	} 
+}
 
 $(document).ready(function(){
 	$wrapper = $(".wrapper");
@@ -21,8 +25,9 @@ $(document).ready(function(){
 	$reset = $("#reset");
 	$reset.click(function(){		
 //Some boxcount math -- Math.pow(prompt("How many squares per side?"), 2);
-		blockcount = Math.pow(prompt("How many squares per side?"), 2);
-		var blocksize = 1200 / blockcount;
+		blockcount = Math.pow(prompt("How many squares per side? (1-45)"), 2);
+		checkNumber();
+		var blocksize = 600 / Math.sqrt(blockcount);
 		$wrapper.empty();
 		makeGrid();
 		$block = $(".block");

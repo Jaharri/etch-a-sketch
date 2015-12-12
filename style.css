@@ -1,17 +1,16 @@
 *{
-	font-family: arial,sans-serif;
-	font-size: 13px;
-	color: #404040;
-	margin: 0;
-	padding: 0;
+	margin:0; 
+	padding:0; 
+	font-size:100%; 
+	line-height:1.5;
 }
 
 .wrapper {
 	width: 600px;
-	height: 608px;
+	height: 600px;
 	margin: 5px auto;
-	background-color: #00ff00;
-	outline: 1px solid #000;
+	background-color: #fff;
+	line-height: 100%;
 }
 
 #buttonwrapper {
@@ -30,9 +29,8 @@
 	height: 37.5px;
 	background-color: #ff0000;
 	display: inline-block;
-	border: 0px solid #000;
 	outline: 1px solid #000;
-	margin-bottom: -2px;
+	margin: 0px auto;
 }
 
 
