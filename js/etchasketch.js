@@ -12,6 +12,7 @@ function draw(){
 
 function checkNumber(){
 	while (Math.sqrt(blockcount) > 45){
+			alert("That number is not between 1 and 45.");
 			blockcount = Math.pow(prompt("Please select a number between 1 and 45."), 2);
 	} 
 }
